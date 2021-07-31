@@ -317,6 +317,9 @@ section {
     }
 
     .restaurant__list__image__container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
         width: 100%;
     }
 }
